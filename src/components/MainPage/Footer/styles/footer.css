@@ -1,0 +1,23 @@
+.footer-player{
+    background-color: var(--mainButtonBorder);
+}
+
+
+.footer-artist-song{
+    color: var(--whiteText);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-artist{
+    color: var(--whiteText);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer-player-ellipse{
+    background-color: var(--footerEllipse);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}

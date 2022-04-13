@@ -1,0 +1,28 @@
+.aside{
+    width: 330px;
+    height: 100vh;
+    background-color: var(--asideBack);
+    overflow: hidden;
+}
+
+.aside-title{
+    color: var(--whiteText);
+    font-size: 22px;
+    font-weight: 700;
+    padding:0 40px;
+}
+
+.aside-select-category{
+    color:var(--asideSelectText);
+    font-size: 16px;
+    font-weight: 700;
+    padding:0 35px;
+    border-left: 5px solid var(--asideSelectText);
+}
+
+.aside-category{
+    color: var(--whiteText);
+    font-size: 16px;
+    font-weight: 400;
+    padding:0 40px;
+}
