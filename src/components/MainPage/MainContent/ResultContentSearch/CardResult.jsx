@@ -2,19 +2,21 @@ import React from 'react'
 import { CoverPlay } from '../atoms/coverplay/CoverPlay'
 
 export const CardResult = ({song}) => {
-    console.log(song)
+  const{album, artist} = song
+
   return (
-    <div className='h-52 w-40'>
+    <div className='min-h-fit  w-40'>
         <CoverPlay
          classContainer='h-40 w-40 relative'
          classImg='h-full'
          classPlay='h-9 w-8'
-         img={song.img}
+         img={album?.cover_medium}
          iconEllipsis
+         song={song}
         />
         <div className='flex flex-col pt-2 h-full w-full'>
-            <p className='card-result-title'>{song.album}</p>
-            <p className='card-result-subtitle'>{song.artist}</p>
+            <p className='card-result-title'>{song.title_short}</p>
+            <p className='card-result-subtitle'>{artist?.name} - {album?.title}</p>
         </div>
     </div>
   )

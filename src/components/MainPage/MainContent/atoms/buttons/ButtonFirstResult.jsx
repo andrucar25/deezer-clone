@@ -2,10 +2,13 @@ import React from 'react'
 
 import '../../styles/mainContent.css';
 
-export const ButtonFirstResult = ({className, text}) => {
+export const ButtonFirstResult = ({url, className, text}) => {
   return (
-    <button className={`first-content-button ${className}`}>
+    <a href={url} target='_blank'>
+      <button className={`first-content-button ${className}`}>
         {text}
-    </button>
+      </button>
+    </a>
+  
   )
 }
