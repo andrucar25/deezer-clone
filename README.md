@@ -1,6 +1,6 @@
 # Deezer Clone React
 
-## Try it
+## Try it (Not Responsive yet)
 You can try by clicking this: https://deezer-clone-react.netlify.app/
 ## Summary
 
